@@ -108,9 +108,6 @@ header h1 {
     
 }
 
-.accordion-header code {
-    padding-left: 10px;
-}
 
 
 
@@ -120,11 +117,11 @@ header h1 {
 
 .accordion-content {
     background-color: #fff;
-    padding: 0 18px;
+    padding: 0 30px;
     max-height: 0;
     /* O segredo para esconder o conteúdo */
     overflow: hidden;
-    transition: max-height 0.3s ease-out, padding 0.3s ease-out;
+    transition: max-height 0.5s ease-out, padding 0.5s ease-out;
 }
 
 .div-Imagem {
@@ -140,7 +137,7 @@ header h1 {
 }
 
 .accordion-content.active {
-    max-height: 300px;
+    max-height: 5000px;
     /* Um valor alto para mostrar o conteúdo */
     padding: 18px;
 }
@@ -149,6 +146,7 @@ header h1 {
     margin: 80px;
     text-align: center;
     width: 400px;
+    height: 800px;
     border: 2px solid red;
     background-color: white;
 }

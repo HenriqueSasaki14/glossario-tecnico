@@ -58,6 +58,10 @@ header {
     color: yellow;
 }
 
+.navBarTutor a:hover {
+    color: greenyellow;
+}
+
 header img {
     height: 70%;
     padding-left: 30%;

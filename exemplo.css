@@ -1,0 +1,18 @@
+.btn {
+    background-color: #007BFF;   /* cor de fundo azul */
+    color: white;                /* cor do texto */
+    border: none;                /* sem borda */
+    padding: 12px 20px;          /* espaço interno */
+    font-size: 16px;             /* tamanho da fonte */
+    border-radius: 8px;          /* cantos arredondados */
+    cursor: pointer;             /* cursor de mãozinha */
+    transition: 0.3s;            /* suaviza as mudanças */
+  }
+  
+  .btn:hover {
+    background-color: #0056b3;   /* azul mais escuro no hover */
+    transform: scale(1.05);      /* aumenta levemente */
+  }
+
+  
+  
